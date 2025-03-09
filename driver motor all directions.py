@@ -92,5 +92,5 @@ def main():
         GPIO.cleanup()
         print("GPIO Cleaned Up. Program Stopped.")
 
-if _name_ == "_main_":
+if name == "main":
     main()
